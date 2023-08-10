@@ -17,3 +17,43 @@ We will do the following things in our Notebooks
 
 
 So let's dive in and read our data, but first we will import all the necessary libraries
+
+  # Reading our Data set
+
+    df= pd.read_csv("flight data.csv")
+    df.head()
+    df.shape
+    df1=pd.read_csv("flight test.csv")
+    df1.head()
+    df1.shape
+
+we will combine both the data for the purpose of feature Engineering 
+
+    total_df=df.append(df1,sort= False)
+    total_df.tail()
+    total_df.head()
+    total_df.shape
+
+# Understanding our Data
+
+size of training set: 10683 records
+size of test set: 2671 records
+
+
+# Features
+
+    Airline: The name of the airline.
+    Data_of_journey: The data of journey
+    source: The source from which the servies begins
+    Destination: The destinations where the serive ends.
+    Route: The route taken by the flight to reach the distination.
+    Dep_Time: The time when the journey starts from the source
+    Arrival_Time: Time of arrival at the destination .
+    Duration: Total duration of the flight .
+    Total_Stops: Total stops between the source and destination.
+    Additional_info: Additional information about the flight 
+    Price: The price of the ticket
+
+  
+
+    
