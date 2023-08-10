@@ -55,5 +55,27 @@ size of test set: 2671 records
     Price: The price of the ticket
 
   
+# Data Analysis
 
+we will be doing this on our train data only
+
+    df['Airline'].value_counts()
+
+Let's see the relation b/w airline and price fare 
+
+    sns.catplot(y='price',x='airline',data=df.sort_values('price',ascending=False),
+    kind="boxen",height=6,aspect=3)
+
+jet airways business have the height fare
+
+    df['source'].value_counts() 
+
+Finding relation b/w source and price
+
+    sns.catplot(y='price',x='source',data=df.df.sort_values('price',ascending=False),kind="boxen",height=6,aspect=3)
+    df['Destination'].value_counts() 
+
+Doing the same for destination
+
+    
     
