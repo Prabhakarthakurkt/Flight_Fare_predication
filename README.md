@@ -9,11 +9,11 @@ Let us create a Machine Learning Model which will help us in predicting the pric
 
 We will do the following things in our Notebooks
 
-   Data Analysis 
-   feature Engineering 
-   Feature Selection 
-   Model Building using ML
-   Model Building using Auto SK Learn(Auto ML)
+  # Data Analysis 
+    feature Engineering 
+    Feature Selection 
+    Model Building using ML
+    Model Building using Auto SK Learn(Auto ML)
 
 
 So let's dive in and read our data, but first we will import all the necessary libraries
